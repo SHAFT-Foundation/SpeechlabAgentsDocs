@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# Dubbing and Speech-to-Speech Agent Framework
+# Dubbing and Speech-to-Speech Agent Framework from SpeechLab
 
 ## Overview
 
