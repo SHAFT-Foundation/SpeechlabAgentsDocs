@@ -5,8 +5,8 @@ description: Documentation for the Dubbing and Speech to Speech translation agen
 color_scheme: dark
 
 # Important: Add these settings
-baseurl: "/SpeechlabAgentsDocs" # the subpath of your site, e.g. /blog
-url: "https://shaft-foundation.github.io" # the base hostname & protocol
+baseurl: "/SpeechlabAgentsDocs"
+url: "https://shaft-foundation.github.io"
 
 # Enable search
 search_enabled: true
@@ -19,7 +19,7 @@ aux_links:
 # Makes Aux links open in a new tab
 aux_links_new_tab: true
 
-# Navigation structure
+# Navigation structure - only including pages with content
 nav:
   - title: Home
     url: /
@@ -27,11 +27,7 @@ nav:
     url: /docs/getting-started/
   - title: Architecture
     url: /docs/architecture/
-  - title: Workflows
-    url: /docs/workflows/
   - title: API Reference
     url: /docs/api-reference/
-  - title: Examples
-    url: /docs/examples/
   - title: Troubleshooting
     url: /docs/troubleshooting/ 

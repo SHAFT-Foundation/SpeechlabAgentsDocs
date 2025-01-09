@@ -3,6 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 permalink: /
+has_children: false
 ---
 
 # Dubbing and Speech-to-Speech Agent Framework
