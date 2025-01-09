@@ -19,15 +19,14 @@ aux_links:
 # Makes Aux links open in a new tab
 aux_links_new_tab: true
 
-# Navigation structure - only including pages with content
-nav:
-  - title: Home
-    url: /
-  - title: Getting Started
-    url: /docs/getting-started/
-  - title: Architecture
-    url: /docs/architecture/
-  - title: API Reference
-    url: /docs/api-reference/
-  - title: Troubleshooting
-    url: /docs/troubleshooting/ 
+# Enable collection documentation 
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+
+# Define the order of navigation
+just_the_docs:
+  collections:
+    docs:
+      nav_fold: true  # optional 
