@@ -13,7 +13,7 @@ has_children: false
 Before you begin working with the Dubbing Agent Framework, ensure you have:
 
 ### 1. API Access
-- **SpeechLab API Account**: Register at [SpeechLab API Portal](https://translate-api.speechlab.ai)
+- **SpeechLab API Account**: Register at [SpeechLab API Portal](https://translate.speechlab.ai)
 - **Authentication Token**: Valid API credentials
 - **Rate Limit Understanding**: 
   - 300 requests/minute per account
