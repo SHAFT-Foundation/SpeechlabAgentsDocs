@@ -14,19 +14,19 @@ An intelligent agent framework for automated dubbing and speech-to-speech transl
 
 ## System Overview
 
-![Process Flow](/assets/images/process-flow.svg)
+![Process Flow]({{ site.baseurl }}/assets/images/process-flow.svg)
 
 ## Component Architecture
 
-![Component Interaction](/assets/images/component-interaction.svg)
+![Component Interaction]({{ site.baseurl }}/assets/images/component-interaction.svg)
 
 ## API Integration
 
-![API Flow](/assets/images/api-flow.svg)
+![API Flow]({{ site.baseurl }}/assets/images/api-flow.svg)
 
 ## User Journey
 
-![User Journey](/assets/images/user-journey.svg)
+![User Journey]({{ site.baseurl }}/assets/images/user-journey.svg)
 
-[Get Started →](/docs/getting-started/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on GitHub](https://github.com/shaft-dev/dubbing-agent-framework){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get Started →]({{ site.baseurl }}/docs/getting-started/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View on GitHub](https://github.com/shaft-foundation/SpeechlabAgentsDocs){: .btn .fs-5 .mb-4 .mb-md-0 }

@@ -4,13 +4,17 @@ title: SHAFT Dubbing Agent Framework
 description: Documentation for the Dubbing and Speech to Speech translation agents
 color_scheme: dark
 
+# Important: Add these settings
+baseurl: "/SpeechlabAgentsDocs" # the subpath of your site, e.g. /blog
+url: "https://shaft-foundation.github.io" # the base hostname & protocol
+
 # Enable search
 search_enabled: true
 
 # Aux links for the upper right navigation
 aux_links:
   "View on GitHub":
-    - "//github.com/shaft-dev/dubbing-agent-framework"
+    - "//github.com/shaft-foundation/SpeechlabAgentsDocs"
 
 # Makes Aux links open in a new tab
 aux_links_new_tab: true
@@ -20,14 +24,14 @@ nav:
   - title: Home
     url: /
   - title: Getting Started
-    url: /docs/getting-started
+    url: /docs/getting-started/
   - title: Architecture
-    url: /docs/architecture
+    url: /docs/architecture/
   - title: Workflows
-    url: /docs/workflows
+    url: /docs/workflows/
   - title: API Reference
-    url: /docs/api-reference
+    url: /docs/api-reference/
   - title: Examples
-    url: /docs/examples
+    url: /docs/examples/
   - title: Troubleshooting
-    url: /docs/troubleshooting 
+    url: /docs/troubleshooting/ 
