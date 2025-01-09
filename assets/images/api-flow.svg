@@ -1,0 +1,56 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="apiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498DB"/>
+      <stop offset="100%" style="stop-color:#2C3E50"/>
+    </linearGradient>
+    <filter id="apiShadow">
+      <feDropShadow dx="3" dy="3" stdDeviation="4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <style>
+    .api-box { 
+      fill: url(#apiGradient); 
+      stroke: #2C3E50; 
+      rx: 15;
+      filter: url(#apiShadow);
+    }
+    .arrow { 
+      stroke: #3498DB; 
+      stroke-width: 3;
+      marker-end: url(#arrowhead); 
+    }
+    .text { 
+      font-family: Arial, sans-serif; 
+      fill: white; 
+      text-anchor: middle;
+      font-weight: bold;
+    }
+    .icon {
+      font-size: 24px;
+      text-anchor: middle;
+    }
+  </style>
+  
+  <!-- API flow steps with icons -->
+  <rect class="api-box" x="50" y="50" width="200" height="100"/>
+  <text class="text" x="150" y="95">Authentication</text>
+  <text class="icon" x="150" y="130">🔐</text>
+  
+  <rect class="api-box" x="50" y="200" width="200" height="100"/>
+  <text class="text" x="150" y="245">Create Project</text>
+  <text class="icon" x="150" y="280">📁</text>
+  
+  <rect class="api-box" x="50" y="350" width="200" height="100"/>
+  <text class="text" x="150" y="395">Process Media</text>
+  <text class="icon" x="150" y="430">⚙️</text>
+  
+  <!-- Animated flow arrows -->
+  <line class="arrow" x1="150" y1="150" x2="150" y2="200">
+    <animate attributeName="stroke-dasharray" from="5,5" to="0,5" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <line class="arrow" x1="150" y1="300" x2="150" y2="350">
+    <animate attributeName="stroke-dasharray" from="5,5" to="0,5" dur="1s" repeatCount="indefinite"/>
+  </line>
+</svg> 

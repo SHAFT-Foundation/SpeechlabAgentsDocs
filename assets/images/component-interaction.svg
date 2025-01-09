@@ -1,0 +1,68 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="componentGradient">
+      <stop offset="0%" style="stop-color:#3498DB"/>
+      <stop offset="100%" style="stop-color:#2C3E50"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <style>
+    .component { 
+      fill: url(#componentGradient); 
+      stroke: #2C3E50; 
+      rx: 20;
+      filter: url(#glow);
+    }
+    .arrow { 
+      stroke: #3498DB; 
+      stroke-width: 2;
+      marker-end: url(#arrowhead); 
+    }
+    .text { 
+      font-family: Arial, sans-serif; 
+      fill: white; 
+      text-anchor: middle;
+      font-weight: bold;
+    }
+    .icon {
+      font-size: 24px;
+      text-anchor: middle;
+    }
+  </style>
+  
+  <!-- Central component -->
+  <rect class="component" x="300" y="50" width="200" height="120"/>
+  <text class="text" x="400" y="100">Agent Controller</text>
+  <text class="icon" x="400" y="140">🤖</text>
+  
+  <!-- Service components -->
+  <rect class="component" x="50" y="250" width="200" height="120"/>
+  <text class="text" x="150" y="300">Transcription Service</text>
+  <text class="icon" x="150" y="340">📝</text>
+  
+  <rect class="component" x="300" y="250" width="200" height="120"/>
+  <text class="text" x="400" y="300">Translation Engine</text>
+  <text class="icon" x="400" y="340">🌐</text>
+  
+  <rect class="component" x="550" y="250" width="200" height="120"/>
+  <text class="text" x="650" y="300">Voice Synthesis</text>
+  <text class="icon" x="650" y="340">🎙️</text>
+  
+  <!-- Animated connection lines -->
+  <line class="arrow" x1="400" y1="170" x2="150" y2="250">
+    <animate attributeName="stroke-dasharray" from="5,5" to="0,5" dur="1.5s" repeatCount="indefinite"/>
+  </line>
+  <line class="arrow" x1="400" y1="170" x2="400" y2="250">
+    <animate attributeName="stroke-dasharray" from="5,5" to="0,5" dur="1.5s" repeatCount="indefinite"/>
+  </line>
+  <line class="arrow" x1="400" y1="170" x2="650" y2="250">
+    <animate attributeName="stroke-dasharray" from="5,5" to="0,5" dur="1.5s" repeatCount="indefinite"/>
+  </line>
+</svg> 

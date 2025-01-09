@@ -1,0 +1,18 @@
+title: Dubbing and Speech-to-Speech Agent Framework
+description: A comprehensive framework for AI-powered dubbing and speech-to-speech translation
+theme: jekyll-theme-cayman
+
+# Navigation
+nav:
+  - title: Overview
+    url: /
+  - title: Getting Started
+    url: /getting-started
+  - title: Agent Architecture
+    url: /architecture
+  - title: Workflows
+    url: /workflows
+  - title: API Reference
+    url: /api-reference
+  - title: Examples
+    url: /examples 
