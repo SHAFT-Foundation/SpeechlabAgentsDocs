@@ -1,18 +1,33 @@
-title: Dubbing and Speech-to-Speech Agent Framework
-description: A comprehensive framework for AI-powered dubbing and speech-to-speech translation
-theme: jekyll-theme-cayman
+# Theme settings
+remote_theme: just-the-docs/just-the-docs
+title: SHAFT Dubbing Agent Framework
+description: Documentation for the Dubbing and Speech to Speech translation agents
+color_scheme: dark
 
-# Navigation
+# Enable search
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "View on GitHub":
+    - "//github.com/shaft-dev/dubbing-agent-framework"
+
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
+# Navigation structure
 nav:
-  - title: Overview
+  - title: Home
     url: /
   - title: Getting Started
-    url: /getting-started
-  - title: Agent Architecture
-    url: /architecture
+    url: /docs/getting-started
+  - title: Architecture
+    url: /docs/architecture
   - title: Workflows
-    url: /workflows
+    url: /docs/workflows
   - title: API Reference
-    url: /api-reference
+    url: /docs/api-reference
   - title: Examples
-    url: /examples 
+    url: /docs/examples
+  - title: Troubleshooting
+    url: /docs/troubleshooting 
