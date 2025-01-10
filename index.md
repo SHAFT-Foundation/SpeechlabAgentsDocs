@@ -20,10 +20,10 @@ This framework provides an intelligent AI agent system for automating dubbing an
 
 ### Quick Links
 
-- [Getting Started Guide](/getting-started)
-- [API Reference](/api-reference) 
-- [Example Workflows](/workflows)
-- [Architecture Details](/architecture)
+- [Getting Started Guide](./docs/getting-started.md)
+- [API Reference](./docs/api-reference.md)
+- [Example Workflows](./docs/workflows.md)
+- [Architecture Details](./docs/architecture.md)
 
 ### Supported Languages
 
@@ -53,4 +53,4 @@ The framework supports a wide range of languages and accents through the SpeechL
 | Irish | ga |
 | Malay | ms |
 
-[View full language support →](/api-reference#language-support) 
+[View full language support →](./docs/api-reference.md#language-support) 
