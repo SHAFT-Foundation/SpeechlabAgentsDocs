@@ -170,3 +170,117 @@ response = requests.request("POST", url, headers=headers, data=payload)
 print(response.text)
 ```
 
+### Get Projects
+
+Retrieve a list of projects with optional filtering and pagination:
+
+```python
+import requests
+
+url = "https://translate-api.speechlab.ai/v1/projects"
+
+# Query parameters
+params = {
+    "sortBy": "owner:asc,updatedAt:desc",  # Sort order
+    "limit": 10,                           # Number of results per page
+    "page": 1,                             # Page number
+    "thirdPartyIDs": "ryan0227-1",        # Filter by third party ID
+    "expand": "true"                       # Include expanded project details
+}
+
+headers = {
+    'Authorization': 'Bearer <Your Bearer Token>'
+}
+
+response = requests.request("GET", url, headers=headers, params=params)
+print(response.text)
+```
+
+The response includes:
+- List of projects with their details including content, transcriptions, and translations
+- Pagination information (page, limit, totalPages, totalResults)
+- Department and owner filters
+- Available transcription and translation language variants
+
+Key query parameters:
+- `sortBy`: Sort results by specified fields (e.g., "owner:asc,updatedAt:desc")
+- `limit`: Number of results per page
+- `page`: Page number for pagination
+- `thirdPartyIDs`: Filter projects by third party ID
+- `expand`: Include expanded project details when true
+
+Example Response:
+```json
+{
+    "projects": [
+        {
+            "_id": "66c620baaafc68002ee2ea1e",
+            "name": "Test Video.mov",
+            "owner": {
+                "email": "ryan+credits@speechlab.ai",
+                "firstName": "crediuts",
+                "lastName": "ryan"
+            },
+            "content": {
+                "fileUuid": "07d56e4e-ddae-4497-b94c-61658a1d8554",
+                "language": "en",
+                "contentDuration": 16.62,
+                "media": {
+                    "thumbnail": "base64_encoded_image_data",
+                    "operationType": "INPUT",
+                    "uri": "s3://speechlab-data-dev/original/07d56e4e-ddae-4497-b94c-61658a1d8554.mov",
+                    "uuid": "07d56e4e-ddae-4497-b94c-61658a1d8554",
+                    "category": "video",
+                    "format": "mov",
+                    "contentType": "video/quicktime"
+                }
+            },
+            "transcription": {
+                "speakers": ["Speaker 1"],
+                "language": "en",
+                "status": "COMPLETE",
+                "medias": [
+                    "66c621394f97baa7dec9c6e1",
+                    "66c6213b4f97baa7dec9c709",
+                    "66c6213baafc68002ee2ebe5"
+                ],
+                "transcriptionText": "..."
+            },
+            "translations": [
+                {
+                    "language": "es_la",
+                    "status": "COMPLETE",
+                    "translationText": "...",
+                    "medias": [
+                        "66c50c444f97baa7deb4edaf",
+                        "66c50c474f97baa7deb4ee47",
+                        "66c50d904f97baa7deb50a6b"
+                    ],
+                    "dub": [
+                        {
+                            "voiceMatchingMode": "source",
+                            "language": "es_la",
+                            "status": "COMPLETE",
+                            "medias": [
+                                "66c50c7b4f97baa7deb4f329",
+                                "66c50c7c4f97baa7deb4f34d",
+                                "66c50c7c4f97baa7deb4f357",
+                                "66c50c7d4f97baa7deb4f3bd",
+                                "66c50c7e4f97baa7deb4f415"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "projectType": "account",
+            "createdAt": "2024-08-21T17:15:38.129Z",
+            "updatedAt": "2024-08-21T17:15:38.129Z"
+        }
+    ],
+    "page": 1,
+    "limit": 10,
+    "totalPages": 14,
+    "totalResults": 135
+}
+```
+
