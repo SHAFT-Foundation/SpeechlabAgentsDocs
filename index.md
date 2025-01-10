@@ -53,4 +53,3 @@ The framework supports a wide range of languages and accents through the SpeechL
 | Irish | ga |
 | Malay | ms |
 
-[View full language support →](./docs/api-reference.md#language-support) 
