@@ -87,20 +87,28 @@ Body:
 ### Supported Source and Target Languages
 
 | Code | Language         |
-|------|------------------|
-| en   | English          |
-| es   | Spanish          |
-| pt   | Portuguese (Brazil) |
-| ja   | Japanese         |
-| fr   | French           |
-| de   | German           |
-| it   | Italian          |
-| nl   | Dutch            |
-| ko   | Korean           |
-| ru   | Russian          |
-| sv   | Swedish          |
-| hi   | Hindi            |
-| po   | Polish           |
+|------|-----------------|
+| en   | English         |
+| es   | Spanish         |
+| pt   | Portuguese      |
+| de   | German          |
+| nl   | Dutch           |
+| fr   | French          |
+| it   | Italian         |
+| ja   | Japanese        |
+| zh   | Chinese         |
+| ar   | Arabic          |
+| hi   | Hindi           |
+| sv   | Swedish         |
+| tr   | Turkish         |
+| ru   | Russian         |
+| uk   | Ukrainian       |
+| id   | Indonesian      |
+| vi   | Vietnamese      |
+| th   | Thai            |
+| da   | Danish          |
+| ga   | Irish           |
+| ms   | Malay           |
 
 ### Accents
 

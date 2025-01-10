@@ -1,4 +1,3 @@
-
 # Dubbing and Speech-to-Speech Agent Framework
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,6 +8,33 @@ An intelligent agent framework for automated dubbing and speech-to-speech transl
 ## System Overview
 
 ![Process Flow]({{ site.baseurl }}/assets/images/process-flow.svg)
+
+## Supported Languages
+
+### Production Ready
+- English (en)
+- Spanish (es)
+- Portuguese (pt)
+- German (de)
+- Dutch (nl)
+- French (fr)
+- Italian (it)
+- Japanese (ja)
+- Chinese (zh)
+- Arabic (ar)
+- Hindi (hi)
+- Swedish (sv)
+- Turkish (tr)
+- Russian (ru)
+- Ukrainian (uk)
+- Indonesian (id)
+- Vietnamese (vi)
+- Thai (th)
+
+### Beta Languages
+- Danish (da)
+- Irish (ga)
+- Malay (ms)
 
 ## Component Architecture
 

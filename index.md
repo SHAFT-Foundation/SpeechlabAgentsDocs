@@ -29,13 +29,28 @@ This framework provides an intelligent AI agent system for automating dubbing an
 
 The framework supports a wide range of languages and accents through the SpeechLab API:
 
-| Language | Translation Code | Available Accents |
-|----------|-----------------|-------------------|
-| English | en | en_prod, en_us_ipa |
-| Spanish | es_la, es_es | es_la_prod |
-| French | fr | fr |
-| German | de | de |
-| Japanese | ja | ja |
-| And more... | | |
+| Language | Code |
+|----------|------|
+| English | en |
+| Spanish | es |
+| Portuguese | pt |
+| German | de |
+| Dutch | nl |
+| French | fr |
+| Italian | it |
+| Japanese | ja |
+| Chinese | zh |
+| Arabic | ar |
+| Hindi | hi |
+| Swedish | sv |
+| Turkish | tr |
+| Russian | ru |
+| Ukrainian | uk |
+| Indonesian | id |
+| Vietnamese | vi |
+| Thai | th |
+| Danish | da |
+| Irish | ga |
+| Malay | ms |
 
 [View full language support →](/api-reference#language-support) 
