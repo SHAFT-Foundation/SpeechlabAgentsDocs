@@ -8,6 +8,32 @@ nav_order: 4
 
 ## Common Dubbing Scenarios
 
+## Output Examples
+
+### Sample User Query
+"Dub this English video into Spanish (Latin American accent)"
+
+### Agent Processing Steps
+1. Transcription complete:
+   ```
+   https://example.com/transcription.json
+   ```
+
+2. Translation complete:
+   ```
+   https://example.com/translation.json
+   ```
+
+3. Audio synthesis complete:
+   ```
+   https://example.com/audio.wav
+   ```
+
+### Final Response
+```
+Dubbed video is ready. Download at https://example.com/audio.mp4
+```
+
 ### 1. Single Language Dubbing
 
 This workflow demonstrates converting a video from English to Spanish:
