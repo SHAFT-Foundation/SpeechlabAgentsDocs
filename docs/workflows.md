@@ -371,3 +371,7 @@ The API access rate limits are as follows:
 
 [View API Reference](https://docs.speechlab.ai/api-reference/)
 
+## TypeScript Implementation
+
+### Basic Authentication Flow
+
