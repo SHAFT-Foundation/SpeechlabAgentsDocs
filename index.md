@@ -12,11 +12,28 @@ This framework provides an intelligent AI agent system for automating dubbing an
 
 ### Key Features
 
--�� **Cognitive Architecture** - Advanced reasoning and planning capabilities using ReAct and Chain-of-Thought
+- 🧠 **Cognitive Architecture** - Advanced reasoning and planning capabilities using ReAct and Chain-of-Thought
 - 🔄 **Workflow Automation** - End-to-end orchestration of complex dubbing tasks
 - 🌐 **Multi-Language Support** - Comprehensive language and accent coverage
 - 🎯 **Custom Voice Matching** - Sophisticated voice profile matching and synthesis
 - ⚡ **Real-Time Processing** - Support for live translation and dubbing scenarios
+
+### Implementation Options
+
+The framework is available in two primary implementations:
+
+#### TypeScript/JavaScript Implementation
+- Full Node.js support
+- TypeScript types included
+- NPM package available
+- Docker support
+- Jest testing suite
+
+#### Python Implementation
+- Python 3.8+ support
+- pip package available
+- Docker support
+- pytest testing suite
 
 ### Quick Links
 
@@ -24,6 +41,8 @@ This framework provides an intelligent AI agent system for automating dubbing an
 - [API Reference](./docs/api-reference.md)
 - [Example Workflows](./docs/workflows.md)
 - [Architecture Details](./docs/architecture.md)
+
+### Framework Structure
 
 ### Supported Languages
 

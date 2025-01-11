@@ -2,12 +2,20 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![API Status](https://img.shields.io/badge/API-Stable-green.svg)](https://translate-api.speechlab.ai)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-blue.svg)](https://www.typescriptlang.org/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 
-An intelligent agent framework for automated dubbing and speech-to-speech translation, powered by SpeechLab API.
+An intelligent agent framework for automated dubbing and speech-to-speech translation, powered by SpeechLab API. Available in both TypeScript and Python implementations.
 
 ## System Overview
 
 ![Process Flow]({{ site.baseurl }}/assets/images/process-flow.svg)
+
+## Implementation Options
+
+### TypeScript/JavaScript
+
+Install the package:
 
 ## Supported Languages
 
