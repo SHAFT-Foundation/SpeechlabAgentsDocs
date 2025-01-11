@@ -41,11 +41,12 @@ nav_order: 6
 **User:** "Translate and dub live conference audio into German."
 
 **Agent:** I'll set up real-time translation:
-1. Connect to your live audio feed
-2. Convert speech to text as it happens
-3. Translate to German instantly
-4. Generate German speech in real-time
-5. Stream the translated audio back to you
+1. Please provide your conference URL (supported platforms: Google Meet, Zoom, Microsoft Teams, or RTP stream)
+2. Connect to your live audio feed
+3. Convert speech to text as it happens
+4. Translate to German instantly
+5. Generate German speech in real-time
+6. Stream the translated audio back to you
 
 ### Example 5: Accessibility Features
 **User:** "Generate subtitles and audio descriptions for this video."
