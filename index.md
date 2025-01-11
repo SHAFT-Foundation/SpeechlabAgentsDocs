@@ -6,6 +6,11 @@ nav_order: 1
 
 # Dubbing and Speech-to-Speech Agent Framework from SpeechLab
 
+<video width="100%" controls>
+  <source src="assets/20250111_1431_Seamless Video Dubbing_simple_compose_01jhbmepf4e1a881fpajyq0ygr.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Overview
 
 This framework provides an intelligent AI agent system for automating dubbing and speech-to-speech (S2S) workflows. Built on modern cognitive architectures and integrated with powerful APIs like SpeechLab, it enables sophisticated audio processing pipelines.
